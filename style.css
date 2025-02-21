@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #fff;
+}
+
+header{
+    background-color: #1e8835;
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container{
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background: #333;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.2);
+}
+.btn{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ff5723;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+textarea{
+    width: 90%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+}
+.box{
+    height: 10rem;
+    width: 10rem;
+    background-color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lightborder{
+    height: 8rem;
+    width: 8rem;
+    background-color: #333;
+    border: 3px dotted rgb(97, 97, 97);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 1.2rem; 
+}
+
+input
+[type='file']{
+    opacity: 0.1;
+    height: 2rem;
+    width: 2rem;
+} 
